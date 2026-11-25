@@ -4,7 +4,7 @@ import {
 } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.18/vision_bundle.mjs";
 
 // --- 設定定数 ---
-const SMILE_MODEL_URL = "./models/smile_detector.onnx";
+const SMILE_MODEL_URL = "smile_detector.onnx";
 const MODEL_INPUT_SIZE = 128;
 const CROP_PADDING_RATIO = 0.20; // CelebAの顔フレーミングに近づける余白割合
 const INFERENCE_INTERVAL_MS = 80; // 約12.5fpsに制限（iPadの発熱・負荷抑制）
