@@ -4,7 +4,8 @@ import {
 } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.18/vision_bundle.mjs";
 
 // --- 設定定数 ---
-const SMILE_MODEL_URL = "smile_detector.onnx";
+// const SMILE_MODEL_URL = "smile_detector.onnx";
+const SMILE_MODEL_URL = "smile_detector 2.onnx";
 const FACE_MODEL_URL =
   "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite";
 
